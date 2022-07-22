@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background : linear-gradient(90deg, #07e7c4, #a02d0e)
+}
+
+h1 {
+  margin-left: 30%;
+  color :  #d5d3e1;
+}
+
+input {
+  width: 100%;
+  outline: none;
+}
+
+.center {
+  margin-top: 10%;
+  margin-left: 35%;
+}
+
+.check {
+  background-color: lime;
+  color: #fff;
+  border: none;
+  padding: 7px 13px;
+}
+
+.delete {
+  background-color: red;
+  color: #fff;
+  border: none;
+  padding: 7px 13px;
+}
+
+.edit {
+  background-color: rgb(228, 232, 231);
+  color: rgb(97, 88, 88);
+  border: none;
+  padding: 7px 13px;
+}
+
+.save {
+  background-color: rgb(9, 18, 196);
+  color: #fff;
+  border: none;
+  padding: 7px 13px;
+}
+
+.add {
+  background-color: rgb(5, 26, 108);
+  color: #fff;
+  border: none;
+  padding: 2px 15px;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.wrapper {
+  margin-top: 30px;
+  border-radius: 6px;
+  background-color: hsl(240, 18%, 91%);
+  margin-bottom: 30px;
+}
+
+.info {
+  width: 100%;
+  height: 50px;
+  background-color: hsl(240, 18%, 91%);
+  display: flex;
+  align-items: center;
+  color: hsl(233, 14%, 35%);
+  padding-left: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+
+.items {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.clear {
+  cursor: pointer;
+  text-align: end;
+}
+
+.statuses {
+  display: flex;
+  justify-content: center;
+}
+
+.statuses span  {
+  padding: 0 4px;
+  cursor: pointer;
+}
+
+.statuses span:hover, .clear:hover {
+  color: hsl(220, 98%, 61%);
+}
+
+.statuses .active  {
+  color: hsl(220, 98%, 61%);
+}
