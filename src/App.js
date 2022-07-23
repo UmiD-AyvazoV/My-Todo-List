@@ -67,7 +67,7 @@ function App() {
     if (localStorage.getItem("todos") === null) {
       localStorage.setItem("todos", JSON.stringify([]))
     } else {
-      setTodos(JSON.parse(localStorage.getItem("todos")));
+      const savedTodos = JSON.parse(localStorage.getItem("todos"));
       setTodos(savedTodos);
       setId(savedTodos.length + 1);
     }
